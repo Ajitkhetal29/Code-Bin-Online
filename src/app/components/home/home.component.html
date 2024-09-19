@@ -1,0 +1,12 @@
+<div class="items-container">
+    <ul class="items-list">
+        <!-- Display a message when there are no items -->
+        @if(items.length == 0) {
+        <li class="no-data">No Data</li>
+        }
+        <!-- Loop through the items and display each one -->
+        @for(item of items; track item.id) {
+        <li class="item" [routerLink]="['/snippet', item.id]">{{ item.title }}</li>
+        }
+    </ul>
+</div>

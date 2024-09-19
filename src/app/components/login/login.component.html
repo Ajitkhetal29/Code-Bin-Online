@@ -1,0 +1,16 @@
+<form [formGroup]="loginForm" class="login-form">
+    <h4 class="login-title">Please Login</h4>
+
+    <label for="email" class="login-label">Email</label>
+    <input type="email" id="email" placeholder="Enter email" [formControl]="email" class="login-input">
+    <p class="error-message" [hidden]="email.valid || email.untouched">Enter a correct email</p>
+
+    <label for="password" class="login-label">Password</label>
+    <input type="password" id="password" placeholder="Enter password" [formControl]="password" class="login-input">
+    <p class="error-message" [hidden]="password.valid || password.untouched">Enter a password</p>
+
+    <hr class="login-divider">
+
+    <button type="button" (click)="login()" class="login-button">Login</button>
+    <button type="button" (click)="reset()" class="reset-button">Reset</button>
+</form>

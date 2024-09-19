@@ -1,0 +1,147 @@
+/* Container for the login form */
+
+.login-form {
+    max-width: 400px;
+    /* Set maximum width for the form */
+    margin: 2rem auto;
+    /* Center the form horizontally */
+    padding: 1.5rem;
+    /* Padding inside the form */
+    border: 1px solid #ddd;
+    /* Light border around the form */
+    border-radius: 8px;
+    /* Rounded corners for the form */
+    background-color: #f9f9f9;
+    /* Light gray background for the form */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Slight shadow for depth */
+}
+
+
+/* Styling for the form title */
+
+.login-title {
+    font-size: 1.5rem;
+    /* Larger font size for the title */
+    margin-bottom: 1rem;
+    /* Space below the title */
+    text-align: center;
+    /* Center align the title */
+    color: #333;
+    /* Dark text color for the title */
+}
+
+
+/* Styling for form labels */
+
+.login-label {
+    display: block;
+    /* Block display for labels */
+    font-weight: bold;
+    /* Bold font weight for labels */
+    margin-top: 1rem;
+    /* Space above the label */
+    color: #333;
+    /* Dark text color for labels */
+}
+
+
+/* Styling for form input fields */
+
+.login-input {
+    width: 100%;
+    /* Full width for inputs */
+    padding: 0.5rem;
+    /* Padding inside inputs */
+    margin-top: 0.5rem;
+    /* Space above inputs */
+    border: 1px solid #ccc;
+    /* Light border for inputs */
+    border-radius: 4px;
+    /* Rounded corners for inputs */
+    font-size: 1rem;
+    /* Standard font size for inputs */
+    box-sizing: border-box;
+    /* Include padding and border in width calculation */
+}
+
+
+/* Styling for error messages */
+
+.error-message {
+    color: #e74c3c;
+    /* Red color for error messages */
+    font-size: 0.875rem;
+    /* Smaller font size for error messages */
+    margin-top: 0.5rem;
+    /* Space above error messages */
+}
+
+
+/* Styling for the form divider */
+
+.login-divider {
+    margin: 1.5rem 0;
+    /* Margin above and below the divider */
+    border: none;
+    /* Remove default border */
+    border-top: 1px solid #ddd;
+    /* Light border on top for divider */
+}
+
+
+/* Styling for form buttons */
+
+.login-button,
+.reset-button {
+    padding: 0.75rem 1.5rem;
+    /* Padding inside buttons */
+    font-size: 1rem;
+    /* Standard font size for buttons */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Rounded corners for buttons */
+    cursor: pointer;
+    /* Pointer cursor for buttons */
+    margin-right: 0.5rem;
+    /* Space between buttons */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+
+/* Specific styling for login button */
+
+.login-button {
+    background-color: #3498db;
+    /* Blue background for login button */
+    color: #ffffff;
+    /* White text color for login button */
+}
+
+
+/* Hover effect for login button */
+
+.login-button:hover {
+    background-color: #2980b9;
+    /* Darker blue background on hover */
+}
+
+
+/* Specific styling for reset button */
+
+.reset-button {
+    background-color: #e74c3c;
+    /* Red background for reset button */
+    color: #ffffff;
+    /* White text color for reset button */
+}
+
+
+/* Hover effect for reset button */
+
+.reset-button:hover {
+    background-color: #c0392b;
+    /* Darker red background on hover */
+}

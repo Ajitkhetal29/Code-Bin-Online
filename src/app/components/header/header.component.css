@@ -1,0 +1,77 @@
+/* Container for the navigation bar */
+
+.navbar-container {
+    background-color: #1f2937;
+    /* Tailwind class: bg-gray-800 */
+    color: #ffffff;
+    /* Tailwind class: text-white */
+    padding: 1rem;
+    /* Tailwind class: p-4 */
+}
+
+
+/* Navigation bar styling */
+
+.navbar {
+    display: flex;
+    /* Tailwind class: flex */
+    align-items: center;
+    /* Tailwind class: items-center */
+    justify-content: space-between;
+    /* Tailwind class: justify-between */
+}
+
+
+/* Brand styling */
+
+.navbar-brand {
+    font-size: 1.25rem;
+    /* Tailwind class: text-xl */
+    font-weight: bold;
+    /* Tailwind class: font-bold */
+}
+
+
+/* Link styling */
+
+.navbar-link {
+    color: inherit;
+    /* Keeps text color white */
+    text-decoration: none;
+    transition: color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+
+/* Hover effect for links */
+
+.navbar-link:hover {
+    color: #60a5fa;
+    /* Tailwind class: hover:text-blue-400 */
+}
+
+
+/* Navigation menu styling */
+
+.navbar-menu {
+    display: flex;
+    /* Tailwind class: flex */
+    gap: 1rem;
+    /* Tailwind class: space-x-4 (approx.) */
+    list-style: none;
+    /* Remove default list style */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+
+/* Divider styling */
+
+.navbar-divider {
+    border-color: #4b5563;
+    /* Tailwind class: border-gray-600 */
+    margin-top: 0.5rem;
+    /* Tailwind class: mt-2 */
+}

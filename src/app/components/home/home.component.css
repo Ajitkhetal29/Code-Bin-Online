@@ -1,0 +1,70 @@
+/* Container for the items list */
+
+.items-container {
+    padding: 1rem;
+    /* Adds padding around the container */
+    background-color: #f0f4f8;
+    /* Light background color */
+    border-radius: 8px;
+    /* Rounded corners for the container */
+    max-width: 600px;
+    /* Maximum width for the container */
+    margin: 1rem auto;
+    /* Center the container horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+
+/* Styling for the unordered list */
+
+.items-list {
+    list-style: none;
+    /* Remove default list style */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+}
+
+
+/* Styling for the 'No Data' message */
+
+.no-data {
+    font-size: 1.2rem;
+    /* Slightly larger font size for emphasis */
+    color: #888;
+    /* Gray color for 'No Data' text */
+    text-align: center;
+    /* Center align the text */
+    padding: 1rem 0;
+    /* Add padding for spacing */
+}
+
+
+/* Styling for each item in the list */
+
+.item {
+    font-size: 1rem;
+    /* Standard font size */
+    color: #333;
+    /* Dark text color for readability */
+    padding: 0.75rem 1rem;
+    /* Padding around each list item */
+    border-bottom: 1px solid #ddd;
+    /* Light bottom border for separation */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+    text-decoration: none;
+    /* Remove text decoration */
+}
+
+
+/* Hover effect for list items */
+
+.item:hover {
+    background-color: #e2e8f0;
+    /* Light gray background on hover */
+}

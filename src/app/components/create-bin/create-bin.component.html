@@ -1,0 +1,15 @@
+<form [formGroup]="binForm" class="login-form">
+    <h4 class="login-title">Create Code Bin</h4>
+
+    <label for="title" class="login-label">Title</label>
+    <input type="text" id="title" placeholder="Enter Title" [formControl]="title" class="login-input">
+    <p class="error-message" [hidden]="title.valid || title.untouched">Title Required</p>
+
+    <label for="code" class="login-label">Bin</label>
+    <textarea type="text" id="code" placeholder="Enter Code" [formControl]="code" class="login-input" rows="10"></textarea>
+    <p class="error-message" [hidden]="code.valid || code.untouched">Code Required</p>
+
+    <hr class="login-divider">
+    <button type="button" (click)="save()" class="login-button">Create Bin</button>
+    <button type="button" (click)="reset()" class="reset-button">Reset</button>
+</form>
